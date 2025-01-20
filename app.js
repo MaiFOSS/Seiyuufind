@@ -6,3 +6,11 @@ button.addEventListener("click", (e) => {
 	const newValue = value + 1;
 	divElement.textContent = newValue;
 });
+
+
+// script.js
+document.getElementById('search-button').addEventListener('click', function() {
+    const query = document.getElementById('search-input').value;
+    alert('You searched for: ' + query);
+    // Here you can add more functionality, like redirecting to a search results page
+});
